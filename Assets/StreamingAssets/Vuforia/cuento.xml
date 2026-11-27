@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="AranaRincon" size="0.104000 0.108219" />
+    <ImageTarget name="ViudaNegra" size="0.119000 0.119000" />
+    <ImageTarget name="AranaPollito" size="0.116000 0.077333" />
+    <ImageTarget name="aranatigre" size="0.095000 0.095581" />
+    <ImageTarget name="AranaSaltarina" size="0.068000 0.077940" />
+  </Tracking>
+</QCARConfig>

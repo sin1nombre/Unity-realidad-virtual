@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
   commonName: "Ara\xF1a pollito chilena"
   scientificName: Grammostola rosea
+  spiderPrefab: {fileID: 1211248696967028238, guid: 1e31283a209c3664ea73a9189b9abafb, type: 3}
   dangerLevel: 1
   alertColor: {r: 0.95, g: 0.77, b: 0.06, a: 1}
   habitatSummary: Vive en madrigueras de tierra, cerros y bajo rocas en zonas naturales.

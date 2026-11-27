@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
   commonName: "Ara\xF1a de rinc\xF3n"
   scientificName: Loxosceles laeta
+  spiderPrefab: {fileID: 5356085032044171827, guid: 87c80f7ac5d18ab49a03b8a441f17ba5, type: 3}
   dangerLevel: 2
   alertColor: {r: 0.91, g: 0.3, b: 0.24, a: 1}
   habitatSummary: "Vive en lugares oscuros, detr\xE1s de cuadros, cl\xF3sets, muebles

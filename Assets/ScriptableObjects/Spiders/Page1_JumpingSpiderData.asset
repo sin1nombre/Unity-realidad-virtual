@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
   commonName: "Ara\xF1a saltarina"
   scientificName: Salticidae
+  spiderPrefab: {fileID: 3702591610610870283, guid: f18ac2a241ce974408de4d15a76f11be, type: 3}
   dangerLevel: 0
   alertColor: {r: 0.18, g: 0.8, b: 0.44, a: 1}
   habitatSummary: Vive en hojas, plantas del patio y marcos soleados de ventanas.

@@ -17,6 +17,10 @@ public class SpiderSpeciesData : ScriptableObject
     [Tooltip("Scientific binomial or family name of the spider species.")]
     [SerializeField] private string scientificName;
 
+    [Header("Visual Asset")]
+    [Tooltip("Prefab Variant used to display this spider in AR.")]
+    [SerializeField] private GameObject spiderPrefab;
+
     [Header("Safety Classification")]
     [Tooltip("Danger level used for the educational traffic-light indicator.")]
     [SerializeField] private DangerLevel dangerLevel = DangerLevel.Harmless;
@@ -42,6 +46,7 @@ public class SpiderSpeciesData : ScriptableObject
 
     public string CommonName => commonName;
     public string ScientificName => scientificName;
+    public GameObject SpiderPrefab => spiderPrefab;
     public DangerLevel DangerLevel => dangerLevel;
     public Color AlertColor => alertColor;
     public string HabitatSummary => habitatSummary;

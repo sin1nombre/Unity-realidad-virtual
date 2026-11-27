@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
   commonName: "Ara\xF1a tigre"
   scientificName: Scytodes globula
+  spiderPrefab: {fileID: 2787466580541483985, guid: 90182c0245903434ea36927d1cbc5d37, type: 3}
   dangerLevel: 0
   alertColor: {r: 0.18, g: 0.8, b: 0.44, a: 1}
   habitatSummary: Vive en esquinas tranquilas y techos dentro del hogar.

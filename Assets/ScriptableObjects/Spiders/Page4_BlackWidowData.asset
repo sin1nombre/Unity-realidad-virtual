@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
   commonName: Viuda negra
   scientificName: Latrodectus thoracicus
+  spiderPrefab: {fileID: 75330631806704324, guid: 5d9c74ed27b2a094db3b4ffdf9036b31, type: 3}
   dangerLevel: 2
   alertColor: {r: 0.91, g: 0.3, b: 0.24, a: 1}
   habitatSummary: "Vive en exteriores bajo piedras, pilas de le\xF1a, troncos y pastos
