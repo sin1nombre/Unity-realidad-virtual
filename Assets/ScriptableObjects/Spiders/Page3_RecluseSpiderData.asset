@@ -24,4 +24,4 @@ MonoBehaviour:
   pageNarrative: "En la P\xE1gina 3, Leo aprende a reconocer a la ara\xF1a de rinc\xF3n.
     Es veloz y t\xEDmida, pero su veneno es de importancia m\xE9dica, por lo que
     debemos mantener distancia y prevenir accidentes."
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 71342220e00c53a42bc92073770a1d58, type: 3}

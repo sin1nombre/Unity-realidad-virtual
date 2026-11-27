@@ -23,4 +23,4 @@ MonoBehaviour:
   pageNarrative: "En la P\xE1gina 2 aparece la ara\xF1a tigre, la guardiana silenciosa
     de la casa. Sus patas rayadas avanzan con calma protegiendo el hogar de ara\xF1as
     peligrosas."
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 661da259917cb584e9c62b442b593663, type: 3}

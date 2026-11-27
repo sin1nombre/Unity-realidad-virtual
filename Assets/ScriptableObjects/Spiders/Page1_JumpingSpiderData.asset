@@ -23,4 +23,4 @@ MonoBehaviour:
   pageNarrative: "En la P\xE1gina 1, Leo conoce a la curiosa ara\xF1a saltarina.
     Con sus grandes ojos frontales y peque\xF1os saltos precisos, vigila el patio
     soleado como una peque\xF1a aliada."
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 51388753bb944104a83bc5d4ce112b9b, type: 3}

@@ -23,4 +23,4 @@ MonoBehaviour:
   pageNarrative: "En la P\xE1gina 5, Leo descubre a la gran ara\xF1a pollito chilena
     caminando lentamente entre rocas. Aunque impone por su tama\xF1o, es tranquila
     y cumple un rol clave en la naturaleza."
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: 50ac25147e7276449b4fa6339bf7296f, type: 3}

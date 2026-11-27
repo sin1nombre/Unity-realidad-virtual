@@ -33,6 +33,7 @@ public class SpiderPageController : MonoBehaviour
     [SerializeField] private StoryUIManager uiManager;
 
     private Coroutine _fallbackActionCoroutine;
+    private Renderer[] _modelRenderers;
     private Vector3 _initialModelLocalPosition;
     private Quaternion _initialModelLocalRotation;
     private Vector3 _initialModelLocalScale;
@@ -53,6 +54,7 @@ public class SpiderPageController : MonoBehaviour
             _initialModelLocalRotation = modelRoot.transform.localRotation;
             _initialModelLocalScale = modelRoot.transform.localScale;
             _hasCachedModelTransform = true;
+            _modelRenderers = modelRoot.GetComponentsInChildren<Renderer>(true);
 
             if (modelAnimator == null)
             {
@@ -74,6 +76,7 @@ public class SpiderPageController : MonoBehaviour
         if (modelRoot != null)
         {
             modelRoot.SetActive(true);
+            SetModelRenderersEnabled(true);
         }
 
         if (HasValidAnimatorController() && !string.IsNullOrWhiteSpace(baseAnimationTrigger))
@@ -117,6 +120,22 @@ public class SpiderPageController : MonoBehaviour
 
         StopFallbackAnimation();
         _fallbackActionCoroutine = StartCoroutine(PlayFallbackBehaviorRoutine());
+    }
+
+    private void SetModelRenderersEnabled(bool isEnabled)
+    {
+        if (_modelRenderers == null)
+        {
+            return;
+        }
+
+        for (int i = 0; i < _modelRenderers.Length; i++)
+        {
+            if (_modelRenderers[i] != null)
+            {
+                _modelRenderers[i].enabled = isEnabled;
+            }
+        }
     }
 
     private bool HasValidAnimatorController()

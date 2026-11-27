@@ -151,7 +151,6 @@ public class StoryUIManager : MonoBehaviour
 
         if (narrationAudioSource == null)
         {
-            Debug.LogWarning("[StoryUIManager] Narration AudioSource is missing.");
             return;
         }
 
@@ -159,7 +158,6 @@ public class StoryUIManager : MonoBehaviour
         if (clip == null)
         {
             SetStatusMessage($"Sin AudioClip asignado para {_activePage.SpeciesData.CommonName}.");
-            Debug.Log($"[StoryUIManager] No AudioClip assigned for '{_activePage.SpeciesData.CommonName}'.");
             return;
         }
 

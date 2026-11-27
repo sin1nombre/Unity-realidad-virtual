@@ -24,4 +24,4 @@ MonoBehaviour:
   pageNarrative: "En la P\xE1gina 4, bajo una vieja pila de le\xF1a, Leo identifica
     a la viuda negra por su cuerpo negro brillante y su mancha roja de advertencia.
     Su veneno es de importancia m\xE9dica y se la respeta desde lejos."
-  narrationClip: {fileID: 0}
+  narrationClip: {fileID: 8300000, guid: d926e7f2554634447a0b1510bbdc528d, type: 3}
