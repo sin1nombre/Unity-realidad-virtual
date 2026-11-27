@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4985d23054ef26e4e8f49a47d327e01c, type: 3}
+  m_Name: Page5_ChileanRoseTarantulaData
+  m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
+  commonName: "Ara\xF1a pollito chilena"
+  scientificName: Grammostola rosea
+  dangerLevel: 1
+  alertColor: {r: 0.95, g: 0.77, b: 0.06, a: 1}
+  habitatSummary: Vive en madrigueras de tierra, cerros y bajo rocas en zonas naturales.
+  preventionTip: 'Su veneno no es peligroso para humanos, pero no la tomes: si se
+    asusta puede liberar pelos urticantes que irritan la piel y los ojos.'
+  pageNarrative: "En la P\xE1gina 5, Leo descubre a la gran ara\xF1a pollito chilena
+    caminando lentamente entre rocas. Aunque impone por su tama\xF1o, es tranquila
+    y cumple un rol clave en la naturaleza."
+  narrationClip: {fileID: 0}

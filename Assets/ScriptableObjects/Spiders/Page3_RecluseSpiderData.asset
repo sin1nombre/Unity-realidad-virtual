@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4985d23054ef26e4e8f49a47d327e01c, type: 3}
+  m_Name: Page3_RecluseSpiderData
+  m_EditorClassIdentifier: Assembly-CSharp::SpiderSpeciesData
+  commonName: "Ara\xF1a de rinc\xF3n"
+  scientificName: Loxosceles laeta
+  dangerLevel: 2
+  alertColor: {r: 0.91, g: 0.3, b: 0.24, a: 1}
+  habitatSummary: "Vive en lugares oscuros, detr\xE1s de cuadros, cl\xF3sets, muebles
+    y ropa guardada."
+  preventionTip: Sacude siempre la ropa y zapatos antes de usarlos, separa las camas
+    de las paredes y evita meter las manos en rincones oscuros.
+  pageNarrative: "En la P\xE1gina 3, Leo aprende a reconocer a la ara\xF1a de rinc\xF3n.
+    Es veloz y t\xEDmida, pero su veneno es de importancia m\xE9dica, por lo que
+    debemos mantener distancia y prevenir accidentes."
+  narrationClip: {fileID: 0}
